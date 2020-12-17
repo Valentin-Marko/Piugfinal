@@ -1,0 +1,29 @@
+.images img {
+    width: 400px;
+    height: 400px;
+    margin: 2rem 1rem;
+    
+  
+  }
+  .images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+  
+  .grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+    .grow:hover { 
+    transform: scale(1.1); 
+    }
+  
+    h1{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 3em;
+      width: 400px;
+      text-align: center;
+      color: azure;
+    }
